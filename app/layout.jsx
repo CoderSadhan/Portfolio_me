@@ -3,8 +3,11 @@ import { ThemeProvider } from './components/ThemeProvider'
 import Navbar from './components/Navbar'
 
 export const metadata = {
-  title: 'Sadhan Das - AI Engineer & Developer',
-  description: 'Portfolio of Sadhan Das - AI Engineer & Full Stack Developer',
+  title: 'Sadhan Das - Software Engineer',
+  description: 'Portfolio of Sadhan Das - Software Engineer & Full Stack Developer',
+  icons: {
+    icon: 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="48" fill="%230f172a" stroke="%2306b6d4" stroke-width="4"/><text x="50%" y="62%" font-size="50" font-family="system-ui, sans-serif" font-weight="800" fill="url(%23grad)" text-anchor="middle">SD</text><defs><linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="%2306b6d4"/><stop offset="100%" stop-color="%23a855f7"/></linearGradient></defs></svg>'
+  }
 }
 
 export default function RootLayout({ children }) {

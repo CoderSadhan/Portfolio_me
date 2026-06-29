@@ -35,10 +35,10 @@ To run this project locally:
 
 ```bash
 # 1️⃣ Clone the repository
-git clone https://github.com/CoderSadhan/Portfolio.git
+git clone https://github.com/CoderSadhan/Portfolio_me.git
 
 # 2️⃣ Navigate to project directory
-cd My_Portfolio
+cd Portfolio_me
 
 # 3️⃣ Install dependencies
 npm install
