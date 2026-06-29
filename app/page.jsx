@@ -146,7 +146,7 @@ export default function Home() {
           justifyContent: "center",
           gap: "1.5rem",
           alignItems: "center",
-          padding: "0.5rem 2rem 1rem",
+          padding: "5.5rem 2rem 2rem",
           background:
             "radial-gradient(circle at 30% 30%, rgba(0,255,200,0.08), transparent 80%)",
           color: "var(--text)",
@@ -242,7 +242,7 @@ export default function Home() {
           <div
             style={{
               flex: 1,
-              minWidth: "360px",
+              minWidth: "min(360px, 100%)",
               maxWidth: "700px",
               display: "flex",
               flexDirection: "column",
