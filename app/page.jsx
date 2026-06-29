@@ -174,6 +174,12 @@ export default function Home() {
             50% { background-position: 100% 50%; }
             100% { background-position: 0% 50%; }
           }
+          @media (max-width: 900px) {
+            .photo-column {
+              justify-content: flex-start !important;
+              padding-left: 1rem !important;
+            }
+          }
         `}
         </style>
 
@@ -191,9 +197,11 @@ export default function Home() {
         >
           {/* --- Left: Animated Glowing Photo --- */}
           <div
+            className="photo-column"
             style={{
               position: "relative",
-              flex: "0 0 380px",
+              flex: "0 1 380px",
+              width: "100%",
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
