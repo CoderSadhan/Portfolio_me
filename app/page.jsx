@@ -207,42 +207,54 @@ export default function Home() {
               alignItems: "center",
             }}
           >
-            <div
-              style={{
-                position: "absolute",
-                width: "330px",
-                height: "330px",
-                borderRadius: "50%",
-                border: "2px dashed var(--accent)",
-                opacity: 0.3,
-                animation: "spin 25s linear infinite",
-              }}
-            />
+            {/* Concentric alignment helper wrapper */}
             <div
               style={{
                 position: "relative",
-                borderRadius: "50%",
-                overflow: "hidden",
-                width: "300px",
-                height: "300px",
-                boxShadow: "0 0 45px rgba(0,255,200,0.25)",
-                border: "3px solid var(--accent)",
-                zIndex: 1,
-                animation: "float 4s ease-in-out infinite",
-                background: "#718bbe",
+                width: "330px",
+                height: "330px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
               }}
             >
-              <Image
-                src={photo}
-                alt="Kunj Desai"
+              <div
                 style={{
-                  width: "100%",
-                  height: "100%",
-                  objectFit: "contain",
-                  marginTop: "1.2rem",
+                  position: "absolute",
+                  width: "330px",
+                  height: "330px",
                   borderRadius: "50%",
+                  border: "2px dashed var(--accent)",
+                  opacity: 0.3,
+                  animation: "spin 25s linear infinite",
                 }}
               />
+              <div
+                style={{
+                  position: "relative",
+                  borderRadius: "50%",
+                  overflow: "hidden",
+                  width: "300px",
+                  height: "300px",
+                  boxShadow: "0 0 45px rgba(0,255,200,0.25)",
+                  border: "3px solid var(--accent)",
+                  zIndex: 1,
+                  animation: "float 4s ease-in-out infinite",
+                  background: "#718bbe",
+                }}
+              >
+                <Image
+                  src={photo}
+                  alt="Sadhan Das"
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                    marginTop: "1.2rem",
+                    borderRadius: "50%",
+                  }}
+                />
+              </div>
             </div>
           </div>
 
@@ -386,7 +398,13 @@ export default function Home() {
                 marginTop: "1.8rem",
               }}
             >
-              <h2 style={{ fontSize: "1.4rem", marginBottom: "0.5rem", fontWeight: 600 }}>
+              <h2
+                style={{
+                  fontSize: "1.4rem",
+                  marginBottom: "0.5rem",
+                  fontWeight: 600,
+                }}
+              >
                 Connect
               </h2>
               <div
@@ -409,7 +427,8 @@ export default function Home() {
                       display: "block",
                     }}
                     onMouseEnter={(e) => {
-                      e.currentTarget.style.transform = "scale(1.15) rotate(5deg)";
+                      e.currentTarget.style.transform =
+                        "scale(1.15) rotate(5deg)";
                     }}
                     onMouseLeave={(e) => {
                       e.currentTarget.style.transform = "scale(1) rotate(0deg)";
