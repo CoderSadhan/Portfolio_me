@@ -139,14 +139,14 @@ export default function Home() {
       <section
         id="home"
         style={{
-          minHeight: "100vh",
+          minHeight: "calc(100vh - 80px)",
           width: "100%",
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
           gap: "1.5rem",
           alignItems: "center",
-          padding: "5.5rem 2rem 2rem",
+          padding: "0.5rem 2rem 2rem",
           background:
             "radial-gradient(circle at 30% 30%, rgba(0,255,200,0.08), transparent 80%)",
           color: "var(--text)",
@@ -175,6 +175,9 @@ export default function Home() {
             100% { background-position: 0% 50%; }
           }
           @media (max-width: 900px) {
+            #home {
+              padding-top: 5.5rem !important;
+            }
             .photo-column {
               justify-content: flex-start !important;
               padding-left: 1rem !important;
