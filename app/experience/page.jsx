@@ -68,10 +68,10 @@ export default function Experience() {
       color: "#06b6d4",
       icon: "💻",
       achievements: [
-        "Developed 5+ RESTful APIs using Node.js and Express.js, with Swagger UI hosted via Next.js for interactive API documentation",
-        "Built a Facebook & WhatsApp customer support bot using TypeScript for automating 60% of customer queries",
-        "Built a Product URL Validator Tool in JavaScript with ~95% accuracy and reducing manual product verification time by 50%",
-        "Collaborated with the Web Ecommerce team to integrate APIs and optimize product listing performance,improving page load speed by 20%",
+        "Built ETL pipelines to load data into fact and dimension tables, and authored PostgreSQL queries to generate analytical datasets",
+        "Developed 5+ RESTful APIs using Node.js and Express.js, documented via Swagger UI hosted on Next.js for internal tooling",
+        "Engineered a Product URL Validator using JavaScript and regex pattern matching across major e-commerce platforms, achieving 95% accuracy and cutting manual verification effort by 75%",
+        "Collaborated with the Web E-commerce team and worked on real time notifications and optimize product listing feature and improving page load speed by 25%",
       ],
     },
     {

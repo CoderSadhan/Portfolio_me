@@ -356,7 +356,10 @@ export default function Home() {
               }}
             >
               {[
-                { label: "📍 Location", value: "CoochBehar,West Bengal,India" },
+                {
+                  label: "📍 Location",
+                  value: "  Kolkata, India",
+                },
                 { label: "💼 Expertise", value: "Full Stack Development" },
                 { label: "📧 Contact", value: "sadhandas.dev@gmail.com" },
               ].map((info, i) => (
@@ -934,7 +937,7 @@ export default function Home() {
                       fontWeight: 600,
                     }}
                   >
-                    React & Next.js Developer
+                    MERN Stack & Next.js Developer
                   </span>
                 </div>
               </div>
